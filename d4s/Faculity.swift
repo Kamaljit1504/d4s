@@ -13,7 +13,7 @@ class Faculity
     var Fname:String?
     var BS:Float?
     var bonus:Float?
-    var TS:Float?
+    var TS:Float = 0.0
     
     convenience init(ID:Int,Fname:String,BS:Float,bonus:Float)
     {
@@ -28,12 +28,9 @@ class Faculity
         self.BS=BS
         self.bonus=bouns
     }
-    private init(Id:Int,Fname:String)
-    {
-        self.ID=Id
-        self.Fname=Fname
-    }
     
+    
+
     func CalSal()
     {
         TS = BS!+bonus!
@@ -45,7 +42,7 @@ class Faculity
         print(Fname!)
         print(BS!)
         print(bonus!)
-        print(TS!)
+        print(TS)
         
     }
 }
