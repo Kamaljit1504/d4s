@@ -32,6 +32,8 @@ init()
         self.totalMarks=0.0
         self.per = 0.0
     }
+    
+
 
 func Cal()
 {
