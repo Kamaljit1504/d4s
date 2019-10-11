@@ -9,6 +9,8 @@
 import Foundation
 
 print("Hello, World!")
-var s1=Student()
-
+var s1 = Student(Id: 101,name: "Kamal",Marks: ["m1":67,"m2":78,"m3":77,"m4":78,"m5":68])
+s1.Cal()
+s1.CalPER()
+s1.printData()
 
